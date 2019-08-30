@@ -25,7 +25,7 @@ COBJECTS	= gofc.o cbuiltin.o cmachine.o $(OBJECTS)
 
 CC		= cc
 #CFLAGS		= -DUSE_READLINE=1
-CFLAGS		=
+CFLAGS		= -I/usr/include/malloc # macOS
 LDFLAGS    	= -lm
 OPTFLAGS	= -O
 OPT1		=
